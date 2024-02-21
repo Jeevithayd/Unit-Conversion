@@ -2,17 +2,11 @@
 This is a length converter GUI application using Python.
 Unit conversions for the following measures:
 1.Centimeter to Meter
-
 2.Meter to Centimeter
-
 3.Centimeter to Feet
-
 4.Feet to Inches
-
 5.Mile to Kilometer
-
 6.Sqft to Sqmtrs
-
 7.Sqft to Acres
 
 # How to Use
