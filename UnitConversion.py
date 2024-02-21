@@ -26,7 +26,8 @@ def convert():
     elif conv_type == "Square Feet to Acres":
         result = value * 0.0000229568
         result_label.config(text="{} sqft is equal to {:.4f} acres.".format(value, result))
-
+        
+# create main window 
 root = tk.Tk()
 root.title("Unit Converter")
 
@@ -37,6 +38,7 @@ types = ["Centimeter to Meter", "Meter to Centimeter", "Centimeter to Feet", "Fe
 optiontype = ttk.Combobox(root, values=types)
 optiontype.grid(row=0, column=1)
 
+# Labels and entry widgets
 label_value = ttk.Label(root, text="Enter Value:")
 label_value.grid(row=1, column=0, padx=10, pady=10)
 
